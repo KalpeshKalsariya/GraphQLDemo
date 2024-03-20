@@ -4,6 +4,7 @@ To install Ruby on a Mac with an M1 or M2 chip for using Cocoapods, you can foll
 
 **Install Homebrew:** 
 - Homebrew is a package manager for macOS that makes it easy to install various software packages. You can install it by running the following command in your Terminal:
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 **Install Ruby using rbenv:** 
