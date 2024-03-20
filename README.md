@@ -152,6 +152,3 @@ Please make sure you have the Apollo CLI installed. If not, you can install it u
 npm install -g apollo
 
 Remember to replace **[Your Project Name]** with the actual name of your Xcode project and **<your_graphql_server_url>** with the actual name of your GraphQl server URL.
-
-![Screenshot 2024-03-20 at 9 42 47 AM](https://github.com/KalpeshKalsariya/GraphQLDemo/assets/38584779/c1f3ce56-08c0-4576-beb2-4538d27a998c)
-
