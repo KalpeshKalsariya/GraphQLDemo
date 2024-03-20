@@ -71,3 +71,45 @@ pod --version
 If Cocoapods is installed correctly and the PATH is set up properly, this command should display the version of Cocoapods installed on your system.
 
 Following these steps should resolve the "command not found" error, and you should be able to use pod init and other Cocoapods commands successfully.
+
+To install Apollo, you typically need to use Node Package Manager (npm) or Yarn. Apollo is primarily used in JavaScript projects, particularly with GraphQL APIs. Here's how you can install Apollo:
+
+Install Node.js: Apollo is a JavaScript library, so you need Node.js installed on your machine to use it. You can download and install Node.js from the official website: Node.js Downloads.
+
+After the installation is complete, you can verify the installation by opening a new Terminal window and
+running the following commands:
+
+node -v
+npm -v
+
+These commands should display the versions of Node.js and npm installed on your system, respectively.
+
+Once Node.js and npm are installed, you should be able to Install the graphql package globally: You can do this by running the following command in your
+terminal:
+
+npm install -g graphql
+
+Install Apollo as a devDependency in your project: This is the recommended installation option in the
+Apollo docs. You can do this by running the following command in your project directory:
+
+npm install --save-dev apollo
+
+Create a new project: Navigate to the directory where you want to create your project and run:
+
+mkdir my-project
+cd my-project
+
+Initialize the project: Initialize a new npm project by running:
+
+npm init -y
+
+This will create a package.json file in your project directory.
+
+Install Apollo Client: Now, you can install Apollo Client, which is the client-side library for Apollo, by running:
+
+npm install @apollo/client graphql
+
+This command will install Apollo Client along with GraphQL, which Apollo Client depends on.
+
+Start using Apollo: With Apollo Client installed, you can now start using it in your project and start configuring it to work with your GraphQL API.
+
