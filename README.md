@@ -1,4 +1,4 @@
-# GraphQLDemo
+# Workflow
 
 To install Ruby on a Mac with an M1 or M2 chip for using Cocoapods, you can follow these steps:
 
