@@ -113,3 +113,21 @@ This command will install Apollo Client along with GraphQL, which Apollo Client 
 
 Start using Apollo: With Apollo Client installed, you can now start using it in your project and start configuring it to work with your GraphQL API.
 
+You can download the schema.json file from your GraphQL server using a command line tool like curl.
+Here’s how you can do it:
+1. Open Terminal.
+2. Navigate to your project directory using the cd command.
+3. Run the following command to download the schema.json file:
+
+apollo schema:download --endpoint=<your_graphql_server_url> schema.json
+
+This command uses the Apollo CLI to download your GraphQL schema from the provided endpoint and save it
+as schema.json in your current directory.
+After downloading the schema.json file, you can add it to your Xcode project:
+1. In Xcode, select File > Add Files to "[Your Project Name]"....
+2. Navigate to the location of your schema.json file and click Add.
+Please make sure you have the Apollo CLI installed. If not, you can install it using npm (Node Package Manager) with the following command:
+
+npm install -g apollo
+
+Remember to replace [Your Project Name] with the actual name of your Xcode project and <your_graphql_server_url> with the actual name of your GraphQl server URL.
