@@ -1,0 +1,16 @@
+query getCountries {
+  countries {
+    name
+    capital
+    currency
+    languages {
+      name
+      code
+      native
+    }
+    states {
+      code
+      name
+    }
+  }
+}
